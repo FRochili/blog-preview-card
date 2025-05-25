@@ -82,3 +82,36 @@ button {
   color:rgb(255, 213, 0);
   cursor:pointer;
 }
+
+@media (max-width: 600px) {
+  .card {
+    width: 90%;
+    height: auto;
+    margin: 2rem;
+    padding: 2rem;
+    box-shadow: 3px 3px 0 black;
+  }
+
+  .desc {
+    font-size: 1rem;
+    line-height: 1.6rem;
+  }
+
+  .footer {
+    margin-top: 2rem;
+  }
+
+  button {
+    padding: 0.4rem 0.8rem;
+    font-size: 0.9rem;
+  }
+
+  .topPic {
+    border-radius: 8px;
+  }
+
+  body {
+    padding: 1rem;
+    height: auto;
+  }
+}
