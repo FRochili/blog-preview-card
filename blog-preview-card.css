@@ -85,9 +85,9 @@ button {
 
 @media (max-width: 600px) {
   .card {
-    width: 90%;
+    width: 50%;
     height: auto;
-    margin: 2rem;
+    margin: 15rem 2rem;
     padding: 2rem;
     box-shadow: 3px 3px 0 black;
   }
@@ -99,6 +99,10 @@ button {
 
   .footer {
     margin-top: 2rem;
+  }
+
+  .title {
+    font-size:1.8rem;
   }
 
   button {
